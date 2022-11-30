@@ -8,19 +8,29 @@ body {
 }
 
 #counter {
-    /* height: 300px; */
     width: 400px;
-    /* border: 2px solid white; */
-    margin: 20vh auto;
+    margin: 10vh auto;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
+#title {
+    color:ghostwhite;
+    margin-bottom: 50px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-decoration:underline;
+    text-decoration-color: darkgoldenrod;
+    text-underline-offset: 10px;
+}
+
 #count {
     font-size: 8em;
-    color: white;
+    color:gold;
     margin-bottom: 40px;
+    text-shadow: 0px 0px 6px white;
 }
 
 #buttons {
@@ -37,4 +47,8 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
+
+button:hover {
+    box-shadow: 0 0 10px 0 white;
 }
